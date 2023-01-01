@@ -1,0 +1,107 @@
+body {
+  background-color: #def5ff;
+  font-weight: bold;
+  text-align: center;
+  font-family: cursive ,'Open Sans', sans-serif;
+
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 5px 0; 
+}
+
+.datetime {
+    font-size: 0.7em;
+    color: rgba(255, 0, 0, 0.802);
+}
+
+.location {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.message {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.temperature-value > p {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+    transition: .3s;
+}
+
+.temperature-value:hover {
+    cursor: pointer;
+    color: rgb(255, 132, 0);
+    transition: .3s;
+    transform-style: flat;
+
+}
+
+.temperature-description {
+    font-size: 1em;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+.min-max-temp, 
+.humidity-pressure, 
+.sea-ground-level,
+.wind-speed-visibility,
+.sunrise-sunset {
+    font-size: 0.5em;
+    font-style: oblique;
+    color: #777;
+}
+
+.references {
+    font-size: 0.6em;
+    color: #777;
+    margin: 0;
+    padding: 0;
+    background-color: #def5ff;
+}
+
+.references > p > a {
+    color: rgb(112, 53, 53);
+    text-decoration: none;
+}
+
+.made-by {
+    font-size: 0.7em;
+    color: rgb(255, 136, 0);
+    margin: 0;
+    padding: 0;
+    background-color: #def5ff;
+}
+
+.made-by > p > a {
+    color: rgb(255, 125, 3);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.made-by > p > a:hover {
+    color: rgb(253, 4, 4);
+    text-decoration: underline;
+    transition: .3s ;
+}
